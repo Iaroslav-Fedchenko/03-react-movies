@@ -1,15 +1,19 @@
 .container {
-    padding: 32px 24px;
+  width: 100%;
+  display: flex;
+    padding: 20px 24px;
     background-color: #ffffff;
     border: 1px solid #e1e4e8;
     border-radius: 4px;
+ align-items: center;
+ gap: 200px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
   }
   
   .title {
     margin: 0;
     font-size: 36px;
-    color: #1a1a1a;
+    color: #eee7e7;
     font-weight: 600;
     margin-bottom: 16px;
   }
@@ -21,4 +25,9 @@
     max-width: 600px;
     line-height: 1.6;
   }
-  
+  .input {
+margin-right: 10px;
+  }
+  .form {
+    display: flex;
+  }
